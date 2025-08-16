@@ -1,6 +1,6 @@
 exports.handler = async (event, context) => {
   // 무조건 5초 대기
-  await new Promise((r) => setTimeout(r, 5000));
+  await new Promise((r) => setTimeout(r, 3000));
 
   // 1x1 transparent GIF (base64)
   const b64 = "R0lGODlhAQABAPAAAP///wAAACwAAAAAAQABAAACAkQBADs=";
